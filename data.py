@@ -1,14 +1,15 @@
 class Urls:
-    MAIN_PAGE = 'https://stellarburgers.nomoreparties.site/'
-    LOGIN_PAGE = 'https://stellarburgers.nomoreparties.site/login'
-    REGISTER_USER = 'https://stellarburgers.nomoreparties.site/api/auth/register'
-    DELETE_USER = 'https://stellarburgers.nomoreparties.site/api/auth/user'
-    PROFILE_PAGE = 'https://stellarburgers.nomoreparties.site/account/profile'
-    FORGOT_PASSWORD_PAGE = 'https://stellarburgers.nomoreparties.site/forgot-password'
-    RESET_PASSWORD_PAGE = 'https://stellarburgers.nomoreparties.site/reset-password'
-    ORDERS_HISTORY = 'https://stellarburgers.nomoreparties.site/account/order-history'
-    FEED = 'https://stellarburgers.nomoreparties.site/feed'
+    BASE_URL = 'https://stellarburgers.nomoreparties.site'
 
+    MAIN_PAGE = BASE_URL + '/'
+    LOGIN_PAGE = BASE_URL + '/login'
+    REGISTER_USER = BASE_URL + '/api/auth/register'
+    DELETE_USER = BASE_URL + '/api/auth/user'
+    PROFILE_PAGE = BASE_URL + '/account/profile'
+    FORGOT_PASSWORD_PAGE = BASE_URL + '/forgot-password'
+    RESET_PASSWORD_PAGE = BASE_URL + '/reset-password'
+    ORDERS_HISTORY = BASE_URL + '/account/order-history'
+    FEED = BASE_URL + '/feed'
 
 
 class Text:
